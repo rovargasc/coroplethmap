@@ -1,0 +1,29 @@
+---
+name:  mapa
+title: Choropleth Map
+menuGroup: mapas2
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+
+    - name: long
+      title: Longitud
+      type: Variable
+
+    - name: lat
+      title: Latitud
+      type: Variable
+
+    - name: group
+      title: Departamento-Estado
+      type: Variable
+
+    - name: medida
+      title: Medida
+      type: Variable
+
+   
+...

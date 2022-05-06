@@ -1,0 +1,38 @@
+title: Choropleth Map
+name: mapa
+jus: '3.0'
+stage: 0
+compilerMode: aggressive
+children:
+  - type: VariableSupplier
+    persistentItems: false
+    stretchFactor: 1
+    children:
+      - type: TargetLayoutBox
+        label: Longitud
+        children:
+          - type: VariablesListBox
+            name: long
+            maxItemCount: 1
+            isTarget: true
+      - type: TargetLayoutBox
+        label: Latitud
+        children:
+          - type: VariablesListBox
+            name: lat
+            maxItemCount: 1
+            isTarget: true
+      - type: TargetLayoutBox
+        label: Departamento-Estado
+        children:
+          - type: VariablesListBox
+            name: group
+            maxItemCount: 1
+            isTarget: true
+      - type: TargetLayoutBox
+        label: Medida
+        children:
+          - type: VariablesListBox
+            name: medida
+            maxItemCount: 1
+            isTarget: true
